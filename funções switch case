@@ -1,0 +1,72 @@
+/*
+let user1 = &quot;Larissa&quot;
+let user2 = &quot;Rebeca&quot;
+const user3 = &quot;Matheus&quot;
+const user4 = &quot;Beatriz&quot;
+const user5 = &quot;Raffaela&quot;
+const user6 = &quot;Maria&quot;
+const user7 = &quot;Julia&quot;
+const user8 = &quot;Davi&quot;
+const user9 = &quot;Murilo&quot;
+const user10 = &quot;Laura&quot;
+let senha1 = &quot;lari&quot;
+let senha2 = &quot;beca&quot;
+const senha3 = &quot;james&quot;
+const senha4 = &quot;bia&quot;
+const senha5 = &quot;raffinha&quot;
+const senha6 = &quot;madu&quot;
+const senha7 = &quot;Juju&quot;
+const senha8 = &quot;Davizeira&quot;
+const senha9 = &quot;morais&quot;
+const senha10 = &quot;laurinha&quot;
+let user = (prompt(&quot;Digite seu usuário:&quot;))
+let senha = (prompt(&quot;Digite sua senha:&quot;))
+function fazerlogin(user,senha) {
+switch (true) {
+case (user1 === user &amp;&amp; senha1 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user2 === user &amp;&amp; senha2 === senha):
+
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user3 === user &amp;&amp; senha3 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user4 === user &amp;&amp; senha4 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user5 === user &amp;&amp; senha5 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user6 === user &amp;&amp; senha6 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user7 === user &amp;&amp; senha7 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user8 === user &amp;&amp; senha8 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+
+case (user9 === user &amp;&amp; senha9 === senha):
+console.log (&quot;Acesso liberado&quot;)
+
+break
+
+case (user10 === user &amp;&amp; senha10 === senha):
+console.log (&quot;Acesso liberado&quot;)
+break
+default:
+console.log (&quot;Acesso negado&quot;)
+}
+}
+fazerlogin(user,senha)
+*/

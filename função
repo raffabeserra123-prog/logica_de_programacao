@@ -1,0 +1,15 @@
+função
+/*
+const usuario= (&quot;raffa&quot;)
+const senha= (Number(123))
+let usuario1= (prompt(&quot;digite seu nome de usuario&quot;))
+let senha1= (prompt(&quot;digite sua senha&quot;))
+function login(usuario,senha){
+console.log(&quot;relize seu login&quot;)
+if (usuario === usuario1 &amp;&amp; senha === senha1)
+console.log (&quot;bem vindo navamente ao sistema&quot;)
+else if (senha !== senha1 &amp;&amp; usuario !== usuario1)
+console.log (&quot;senha e usuario incorreto&quot;)
+}
+login()
+*/

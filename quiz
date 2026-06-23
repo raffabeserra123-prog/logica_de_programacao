@@ -1,0 +1,78 @@
+QUIZ sobre sistemas operacionais e lógica de programação
+let pontos = 0;
+let erros = 0;
+
+console.log(&quot;Seja bem-vindo ao nosso QUIZ sobre sistemas operacionais e
+lógica de programação\n&quot;);
+
+// Pergunta 1
+let operadores = prompt(&quot;1. O que é um sistema operacional?\nA. Um tipo de
+hardware\nB. Um programa que gerencia o computador\nC. Um antivírus\nD.
+Um dispositivo de entrada&quot;);
+
+if (operadores.toLowerCase() === &quot;b&quot;) {
+console.log(&quot;Correto!&quot;);
+pontos++;
+} else {
+console.log(&quot;Errado!&quot;);
+erros++;
+}
+
+// Pergunta 2
+let codigo = prompt(&quot;\n2. Qual sistema operacional é de código aberto?\nA.
+Windows\nB. Linux\nC. macOS\nD. iOS&quot;);
+
+if (codigo.toLowerCase() === &quot;b&quot;) {
+console.log(&quot;Correto!&quot;);
+pontos++;
+} else {
+console.log(&quot;Errado!&quot;);
+erros++;
+
+}
+
+// Pergunta 3
+let gerenciamento = prompt(&quot;\n3. Qual componente o sistema operacional
+gerencia?\nA. Apenas o mouse\nB. Apenas o teclado\nC. Hardware e
+software\nD. Apenas a tela&quot;);
+
+if (gerenciamento.toLowerCase() === &quot;c&quot;) {
+console.log(&quot;Correto!&quot;);
+pontos++;
+} else {
+console.log(&quot;Errado!&quot;);
+erros++;
+}
+
+// Pergunta 4
+let incorreta = prompt(&quot;\n4. Qual desses não é um sistema operacional?\nA.
+Linux\nB. Windows\nC. Ubuntu\nD. Photoshop&quot;);
+
+if (incorreta.toLowerCase() === &quot;d&quot;) {
+console.log(&quot;Correto!&quot;);
+pontos++;
+} else {
+console.log(&quot;Errado!&quot;);
+erros++;
+}
+
+// Pergunta 5
+let android = prompt(&quot;\n5. Qual desses é um sistema operacional para
+celular?\nA. Android\nB. Excel\nC. PowerPoint\nD. Word&quot;);
+
+if (android.toLowerCase() === &quot;a&quot;) {
+console.log(&quot;Correto!&quot;);
+pontos++;
+} else {
+console.log(&quot;Errado!&quot;);
+erros++;
+}
+
+// Resultado final
+console.log(&quot;\nFim do quiz&quot;);
+console.log(&quot;Acertos: &quot; + pontos);
+console.log(&quot;Erros: &quot; + erros);
+
+
+
+

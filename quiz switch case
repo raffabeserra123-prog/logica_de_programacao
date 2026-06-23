@@ -1,0 +1,131 @@
+QUIZ
+pontos = 0;
+let resposta= prompt(&quot;1. Qual filme tem um leão chamado Simba?\nA)
+Shrek\nB) O Rei Leão\nC) Madagascar\nD) Frozen resposta:&quot;)
+switch(resposta) {
+case &quot;B&quot; :
+case &quot;b&quot;:
+case &quot;o rei leão&quot;:
+case &quot;O rei leão&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+console.log(&quot;ERRADO!&quot;)
+}
+let resposta2= prompt(&quot;2. Qual filme tem um boneco chamado Woody?\nA)
+Carros\nB) Toy Story\nC) Up\nD) Divertida Mente resposta: &quot;)
+switch(resposta2) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+case &quot;Toy Story&quot;:
+case &quot;toy Story&quot;:
+console.log(&quot;Correto!&quot;)
+pontos = pontos + 1
+break
+default:
+console.log(&quot;ERRADO!&quot;)
+}
+
+let resposta3= prompt(&quot;5. Qual filme tem monstros que trabalham assustando
+crianças?\nA) Shrek\nB) Madagascar\nC) Frozen\nD) Monstros
+S.A\nResposta:&quot;)
+switch(resposta3) {
+case &quot;D&quot;:
+case &quot;d&quot;:
+case &quot;Monstros S.A&quot;:
+case &quot;monstros s.a&quot;:
+console.log(&quot;Correto!&quot;)
+pontos = pontos + 1
+break
+default:
+console.log(&quot;ERRADO!&quot;)
+}
+let resposta4 = prompt(&quot;4. Qual filme tem uma casa que voa com balões?\nA)
+Up\nB) Toy Story\nC) Carros\nD) Encanto\nResposta:&quot;);
+
+switch(resposta4.toLowerCase()) {
+case &quot;a&quot;:
+case &quot;up&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+console.log(&quot;ERRADO!&quot;);
+}
+let resposta5 = prompt(&quot;5. Qual filme tem carros que falam?\nA) Velozes e
+Furiosos\nB) Carros\nC) Transformers\nD) Aviões\nResposta:&quot;);
+
+switch(resposta5.toLowerCase()) {
+
+case &quot;b&quot;:
+case &quot;carros&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+console.log(&quot;ERRADO!&quot;);
+}
+let resposta6 = prompt(&quot;6. Qual filme tem emoções dentro da cabeça de uma
+menina?\nA) Up\nB) Divertida Mente\nC) Frozen\nD) Shrek\nResposta:&quot;);
+
+switch(resposta6.toLowerCase()) {
+case &quot;b&quot;:
+case &quot;divertida mente&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+console.log(&quot;ERRADO!&quot;);
+}
+let resposta7 = prompt(&quot;7. Qual filme tem uma menina chamada Moana?\nA)
+Frozen\nB) Valente\nC) Moana\nD) Encanto\nResposta:&quot;);
+
+switch(resposta7.toLowerCase()) {
+case &quot;c&quot;:
+case &quot;moana&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+
+console.log(&quot;ERRADO!&quot;);
+}
+let resposta8 = prompt(&quot;8. Qual filme tem um robô que limpa a Terra?\nA)
+Transformers\nB) Wall-E\nC) Big Hero\nD) Robôs\nResposta:&quot;);
+
+switch(resposta8.toLowerCase()) {
+case &quot;b&quot;:
+case &quot;wall-e&quot;:
+case &quot;walle&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+console.log(&quot;ERRADO!&quot;);
+}
+let resposta9 = prompt(&quot;9. Qual filme tem um dragão chamado Banguela?\nA)
+Shrek\nB) Como Treinar Seu Dragão\nC) Frozen\nD) Valente\nResposta:&quot;);
+
+switch(resposta9.toLowerCase()) {
+case &quot;b&quot;:
+case &quot;como treinar seu dragão&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+console.log(&quot;ERRADO!&quot;);
+}
+let resposta10 = prompt(&quot;10. Qual filme tem um panda que luta kung fu?\nA)
+Madagascar\nB) Kung Fu Panda\nC) Tarzan\nD) Zootopia\nResposta:&quot;);
+
+switch(resposta10.toLowerCase()) {
+case &quot;b&quot;:
+case &quot;kung fu panda&quot;:
+console.log(&quot;Correto!&quot;);
+pontos = pontos + 1;
+break;
+default:
+console.log(&quot;ERRADO!&quot;);
+}
+console.log(&quot;Seus pontos= &quot; + pontos)

@@ -1,0 +1,74 @@
+COMANDO 1
+let nome= prompt (&quot;digite seu nome&quot;)
+console.log(&quot;seja bem vindo&quot;, nome)
+let idade= prompt (&quot;informe- nos sua idade&quot;)
+if (idade&gt;=18){
+console.log(&quot;obrigada&quot;, nome,&quot;você é menor de idade&quot;)
+} else if (idade&lt;=17){
+console.log(&quot; obrigada&quot;, nome,&quot;,você é menor de idade&quot;)
+}
+
+COMANDO 2
+let num1= Number (prompt(&quot;digite o primeiro numero&quot;))
+let num2= Number (prompt(&quot;digite o segundo numero&quot;))
+if(num1&gt;num2){
+console.log(&quot;o maior numero é&quot;, num1)
+} else if(num1&lt;num2){
+console.log(&quot;o meior numero é&quot;, num2)
+} else{
+console.log(&quot;os dois numeros sao iguais&quot;)
+}
+EXEMPLO &amp;&amp;
+let idade= prompt(&quot;informe sua idade:&quot;)
+let temconvite= prompt(&quot;você possui convite? :&quot;)
+if(idade&gt;=18 &amp;&amp; temconvite===&quot;sim&quot;) {
+console.log(&quot; entrada permitida, boa festa&quot;)
+}else{
+console.log(&quot;entrada proibida.&quot;)
+}
+
+Nesse caso o &amp;&amp; foi usado para que se ambos os comandos fossem
+verdadeiros permitirem a entrada, caso contrario seria barrado.
+
+EXEMPLO ||
+let nota=Number (prompt (&quot;digite sua nota&quot;))
+let freuquencia=Number (prompt(&quot;informe sua frequência&quot;))
+if(nota&gt;=7 || frequencia&gt;=75) {
+console.log(&quot;parabens, voce foi aprovado&quot;)
+} else {
+console.log(&quot;reprovado&quot;)
+}
+
+Nesse caso, utilizamos o || para se caso uma das opções fossem verdadeiras
+permitindo a aprovação do aluno, caso contrário será reprovado.
+
+COMANDO 3
+let usuario= prompt(&quot;digite seu usuario:&quot;)
+let senha= prompt(&quot;digite sua senha:&quot;)
+let usuariocorreto= &quot;raffaela&quot;
+let senhacorreta= &quot;1234&quot;
+if(usuario===usuariocorreto &amp;&amp; senha===senhacorreta) {
+console.log(&quot;\nLogin realizado com sucesso!&quot;)
+} else if(usuario!==usuariocorreto &amp;&amp; senha!==senhacorreta) {
+console.log(&quot;\nUsuário e senha incorreta!&quot;)
+} else if(usuario!==usuariocorreto) {
+console.log(&quot;\nO usuário está incorreto!&quot;)
+} else{
+console.log(&quot;\nA senha está incorreta!&quot;)
+}
+COMANDO 4
+
+let numero= Number(prompt(&quot;digite um numero para ver a tabuada:&quot;))
+if (numero) {
+console.log(numero + &quot; x 1= &quot; + (numero * 1))
+console.log(numero + &quot; x 2= &quot; + (numero * 2))
+console.log(numero + &quot; x 3= &quot; + (numero * 3))
+console.log(numero + &quot; x 4= &quot; + (numero * 4))
+console.log(numero + &quot; x 5= &quot; + (numero * 5))
+console.log(numero + &quot; x 6= &quot; + (numero * 6))
+console.log(numero + &quot; x 7= &quot; + (numero * 7))
+console.log(numero + &quot; x 8= &quot; + (numero * 8))
+console.log(numero + &quot; x 9= &quot; + (numero * 9))
+console.log(numero + &quot; x 10= &quot; + (numero * 10))
+} else {
+console.log(&quot;insira um numero

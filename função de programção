@@ -1,0 +1,61 @@
+/*
+function bom_dia(){
+console.log(&quot;bom dia&quot;)
+}
+bom_dia()
+*/
+/*
+let num1 =10
+let num2= 20
+function soma() {
+console.log(num1 + num2)
+}
+soma()
+*/
+/*
+let num1=10
+let num2=20
+function soma(){
+soma = (num1+num2)
+console.log(soma)
+}
+soma()
+*/
+/*
+function calcular(num1, num2, operacao){
+let resultado;
+
+switch (operacao){
+case &quot;+&quot;:
+
+resultado = num1 + num2;
+break;
+case &quot;*&quot;:
+resultado = num1 * num2;
+break;
+case &quot;/&quot;:
+resultado = num1 / num2;
+break;
+case &quot;-&quot;:
+resultado = num1 - num2;
+break;
+default:
+return &quot;Operação inválida&quot;;
+}
+return resultado;
+}
+let num1 = Number(prompt(&quot;digite valor um: &quot;));
+let num2 = Number(prompt(&quot;digite valor dois: &quot;));
+let operacao = prompt(&quot;digite qual operaçao deseja (+,-, *, /): &quot;);
+
+const resultfinal = calcular(num1, num2, operacao);
+
+console.log(resultfinal);
+*/
+/*
+function soma(a,b){
+
+return a*b
+}
+console.log(soma(10,2))
+*/

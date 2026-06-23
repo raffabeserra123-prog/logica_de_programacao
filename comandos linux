@@ -1,0 +1,74 @@
+Códigos
+
+console.log(&quot;1- Windows&quot;)
+console.log(&quot;2- Linux&quot;)
+let so= Number (prompt(&quot;Digite a opção:&quot;))
+
+if(so === 1){
+console.log(&quot;Comandos Windows: &quot;)
+
+let opção= prompt (&quot;digite o comando CMD: &quot;)
+switch(opção){
+case &quot;cd&quot;:
+console.log(&quot;O comendo for CD serve para entar no diretório.&quot;)
+break
+case &quot;cd..&quot;:
+console.log(&quot;O comando CD.. serve para voltar para a pasta anterior.&quot;)
+break
+case &quot;dir&quot;:
+console.log(&quot;O comando DIR serve para listar arquivos e pastas no
+diretório atual&quot;)
+break
+case &quot;mkdir&quot;:
+console.log(&quot;O comando MKDIR serve para criar diretórios.&quot;)
+break
+case &quot;md&quot;:
+console.log(&quot;O comando MD serve para criar uma nova pasta.&quot;)
+break
+case &quot;rd&quot;:
+console.log(&quot;O comando RD serve para remover uma pasta&quot;)
+break
+
+case &quot;cls&quot;:
+console.log(&quot;O comando CLS serve para limpar a tela do
+CMD.&quot;)
+break
+case &quot;move&quot;:
+console.log(&quot;O comando MOVE Move arquivos ou
+renomeia pastas.&quot;)
+
+}
+}else if (so === 2){
+console.log(&quot;Comandos Linux&quot;)
+let opção1 = prompt (&quot; Digite os comandos Linux: &quot;)
+switch (opção1){
+case &quot;ls&quot;:
+console.log(&quot;O comando LS serve para listar os arquivos&quot;)
+break
+case &quot;cd&quot;:
+console.log(&quot;O comando CD serve para mudar de diretório&quot;)
+break
+case &quot;pwd&quot;:
+console.log(&quot;O comando PWD serve para mostrar o diretório
+atual&quot;)
+break
+case &quot;mkdir&quot;:
+console.log(&quot;O comando MKDIR serve para criar pasta&quot;)
+break
+case &quot;rm&quot;:
+console.log(&quot;O comando RM serve para remover
+arquivos/pastas&quot;)
+break
+
+case &quot;cp&quot;:
+console.log(&quot;O comando Cp serve para copiar&quot;)
+break
+case &quot;mv&quot;:
+console.log(&quot;o comando MV serve para
+mover/renomear&quot;)
+break
+case &quot;touch&quot;:
+console.log(&quot;O comando TOUCH serve para criar um
+arquivo vazio ou atualiza a data de modificação&quot;)
+}
+}

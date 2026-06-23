@@ -1,0 +1,51 @@
+CATEGORIA
+const nome=(&quot;fernanda&quot;)
+let idade= 27
+let categoria
+let resultado= idade + 5
+
+console.log(&quot;categoria: &quot;)
+if (idade&gt;= 60){
+categoria= &quot;idosa&quot;
+}else if (idade&gt;=18){
+categoria = &quot;adulta&quot;
+}else if (idade&gt;=12){
+categoria= &quot;adolecente&quot;
+}else{
+categoria= &quot;criança&quot;
+}
+console.log(&quot;Nome: &quot; + nome);
+console.log(&quot;Categoria: &quot; + categoria);
+console.log(&quot;Idade atual: &quot; + idade);
+console.log(&quot;Idade daqui a 5 anos: &quot; + resultado)
+
+VOTO
+let idade= 25
+
+if (idade&gt;= 70){
+console.log(&quot;voto facultativo &quot;)
+}
+else if (idade&gt;=18){
+console.log(&quot;voto obrigatorio &quot;)
+
+}
+else if (idade&gt;=16){
+console.log(&quot;voto facultativo &quot;)
+}
+else{
+console.log(&quot;nao vota &quot;)
+}
+console.log(&quot;Idade: &quot; + idade);
+
+POSITIVO, NEGATIVO
+let numero= -5
+
+if (numero&lt;0){
+console.log(&quot;negativo &quot;)
+}
+else if (numero&gt;0){
+console.log(&quot;positivo &quot;)
+}
+else{
+console.log(&quot;zero &quot;)
+}

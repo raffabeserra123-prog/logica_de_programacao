@@ -1,0 +1,35 @@
+/*let num1 = 10
+console.log(num1)
+*/
+/*
+let num1 = 10
+let num2 = 20
+let soma = num1 + num2
+console.log(soma)
+*/
+/*
+let idade = 30
+idade += 1
+console.log(idade)
+*/
+/*
+let nome =prompt(&quot;digite seu nome:&quot;)
+console.log(&quot;olá&quot;,nome)
+*/
+/*
+let num1 = Number (prompt(&quot;digite o valor1:&quot;))
+let num2 = Number (prompt(&quot;digite o valor2:&quot;))
+let soma = num1+num2
+console.log(soma)
+*/
+
+
+
+
+console.log(&quot;seja bem vindo ao nosso sistema&quot;)
+let nome = prompt(&quot;\ndigite seu nome:&quot;)
+console.log(&quot;ola&quot;,nome)
+let email = prompt(&quot;\ninforme seu email:&quot;)
+console.log(&quot;\nseu email foi cadastrado com sucesso!&quot;)
+let escola = prompt(&quot;\ninforme seu nome e seu ano letivo:&quot;)
+console.log(&quot;\nagradecemos por essas informações, sera muito útil&quot;)

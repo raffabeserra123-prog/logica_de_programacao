@@ -1,0 +1,272 @@
+Switch Case
+Situação 1
+let idioma=prompt(&quot;QUAL SEU IDIOMA? :&quot;)
+switch (idioma){
+case&quot;portugues&quot;:
+console.log(&quot;OLÁ&quot;)
+break
+case &quot;ingles&quot;:
+console.log(&quot;HELLO&quot;)
+break
+case&quot;espanhol&quot;:
+console.log(&quot;HOLLA&quot;)
+break
+default:
+console.log(&quot;IDIOMA NAO RECONHECIDO&quot;)
+}
+
+Situação 2
+let numero=Number (prompt(&quot;digite um numero&quot;))
+switch (numero){
+case 1:
+console.log(&quot;saída realizada na segunda feira&quot;)
+break
+case 2:
+console.log(&quot;saída realizada na terça feira&quot;)
+break
+case 3:
+console.log(&quot;saída realizada na quarta feira&quot;)
+break
+case 4:
+
+console.log(&quot;saída realizada na quinta feira&quot;)
+break
+case 5:
+console.log(&quot;saída realizada na sexta feira&quot;)
+break
+case 6:
+console.log(&quot;saída realizada na sabado&quot;)
+break
+case 7:
+console.log(&quot;saída realizada na domingo&quot;)
+break
+default:
+console.log(&quot;dia nao reconhecido&quot;)
+}
+
+Situação 3
+let numero=Number (prompt(&quot;digite o numero do seu meio de transporte&quot;))
+switch (numero){
+case 1:
+console.log(&quot;bicicleta&quot;)
+break
+case 2:
+console.log(&quot;carro&quot;)
+break
+case 3:
+console.log(&quot;onibus&quot;)
+break
+case 4:
+console.log(&quot;trem&quot;)
+break
+
+case 5:
+console.log(&quot;moto&quot;)
+break
+default:
+console.log(&quot;transporte nao reconhecido&quot;)
+}
+
+Situação 4
+let numero=Number (prompt(&quot;nivel de urgencia&quot;))
+switch (numero){
+case 1:
+console.log(&quot;baixa&quot;)
+break
+case 2:
+console.log(&quot;média&quot;)
+break
+case 3:
+console.log(&quot;alta&quot;)
+break
+default:
+console.log(&quot;nivel deurgencia nao reconhecido&quot;)
+}
+
+Situação 5
+let exibirveiculo=prompt(&quot;qual seu veiculo?&quot;)
+switch (exibirveiculo){
+case &quot;VW Up&quot;:
+case &quot;Fiat Mobi&quot;:
+case &quot;Renault Kwid&quot;:
+console.log(&quot;seu veiculo é compacto&quot;)
+break
+
+case &quot;Jeep Renegade&quot;:
+case &quot;Nissan Kicks&quot;:
+case &quot;VW T-Cross&quot;:
+console.log(&quot;suv&quot;)
+break
+case &quot;Volvo VM&quot;:
+case &quot;Scania P-series&quot;:
+case &quot;Mercedes Axor&quot;:
+console.log(&quot;caminhão&quot;)
+break
+default:
+console.log(&quot;Categoria não encontrada, tente compacto, SUV ou caminhão.&quot;)
+}
+
+Situação 6
+let tempo= Number (prompt(&quot;quantas horas voce ficou?&quot;))
+switch (true){
+case tempo &lt;=1 :
+console.log(&quot;pague 5 reais&quot;)
+break
+case tempo &lt;=3 :
+console.log(&quot;pague 10 reais&quot;)
+break
+case tempo&gt;=4 :
+console.log(&quot;pague 15 reais&quot;)
+break
+default:
+console.log(&quot;horario nao identificado&quot;)
+}
+
+Situação 7:
+
+let nivel= Number (prompt(&quot;qual o nivel de dificuldade voce quer?&quot;))
+switch (nivel){
+case 1 :
+console.log(&quot;facil&quot;)
+break
+case 2:
+console.log(&quot;medio&quot;)
+break
+case 3 :
+console.log(&quot;dificil&quot;)
+break
+default:
+console.log(&quot;nivel nao identificado&quot;)
+}
+
+Situação 8
+let servico = prompt(&quot;Escolha um serviço: yoga, musculação ou personal
+trainer&quot;)
+
+switch (servico) {
+case &quot;yoga&quot;:
+console.log(&quot;Aula de yoga: foco em alongamento, respiração e
+relaxamento&quot;)
+break
+case &quot;musculação&quot;:
+console.log(&quot;Musculação: treino com pesos para ganho de força e
+massa&quot;)
+break
+case &quot;personal trainer&quot;:
+console.log(&quot;Personal Trainer: acompanhamento individualizado️&quot;)
+break
+
+default:
+console.log(&quot;Serviço não encontrado, escolha entre yoga, musculação ou
+personal trainer.&quot;)
+}
+
+Situação 9
+let categoria = prompt(&quot;Escolha a categoria: estudante, meia entrada ou
+inteira&quot;)
+switch (categoria) {
+case &quot;estudante&quot;:
+console.log(&quot;Ingresso estudante: R$ 20&quot;)
+break
+case &quot;meia entrada&quot;:
+console.log(&quot;Ingresso meia entrada: R$ 25&quot;)
+break
+case &quot;inteira&quot;:
+console.log(&quot;Ingresso inteira: R$ 50&quot;)
+break
+default:
+console.log(&quot;Categoria não reconhecida&quot;)
+}
+
+Situação 10
+let idade = Number(prompt(&quot;Qual sua idade?&quot;))
+switch (true) {
+case idade &lt;= 12:
+console.log(&quot;Iniciante (exercícios leves e recreativos)&quot;)
+break
+case idade &lt;= 17:
+console.log(&quot;Intermediário (exercícios moderados com supervisão)&quot;)
+break
+case idade &lt;= 59:
+
+console.log(&quot;Avançado (treinos completos e intensos)&quot;)
+break
+case idade &gt;= 60:
+console.log(&quot;Adaptado (exercícios leves e com cuidado)&quot;)
+break
+default:
+console.log(&quot;Idade não identificada&quot;)
+}
+
+Situação 11
+let genero = prompt(&quot;rock, pop ou clássico&quot;);
+
+switch (genero) {
+case &quot;rock&quot;:
+console.log(&quot; guitarra elétrica, bateria, baixo&quot;)
+break
+case &quot;pop&quot;:
+console.log(&quot; teclado, sintetizador, bateria eletrônica &quot;)
+break
+case &quot;clássico&quot;:
+console.log(&quot;violino, piano, violoncelo &quot;)
+break
+default:
+console.log(&quot;Escolha rock, pop ou clássico.&quot;)
+}
+
+Situação 12
+let area = prompt(&quot;Escolha a área entre front-end, back-end ou mobile&quot;)
+switch (area) {
+case &quot;front-end&quot;:
+console.log(&quot;Cursos nessa area HTML, CSS, JavaScript, React&quot;)
+
+break
+case &quot;back-end&quot;:
+console.log(&quot;Cursos nessa area Node.js, Python, Java, Banco de Dados&quot;)
+break
+case &quot;mobile&quot;:
+console.log(&quot;Cursos nessa area Flutter, React Native, Kotlin, Swift&quot;)
+break
+default:
+console.log(&quot;Escolha front-end, back-end ou mobile.&quot;)
+}
+
+Situação 13
+let idade = Number(prompt(&quot;Qual a idade do atleta?&quot;))
+switch (true) {
+case idade &lt;= 12:
+console.log(&quot; Iniciante (aprendizado e fundamentos básicos)&quot;)
+break
+case idade &lt;= 17:
+console.log(&quot; Intermediário (treinos mais estruturados)&quot;)
+break
+case idade &lt;= 35:
+console.log(&quot; Avançado (alto desempenho e competições)&quot;);
+break
+case idade &gt; 35:
+console.log(&quot; Master (treinos adaptados e manutenção física)&quot;)
+break
+default:
+console.log(&quot;Idade não identificada&quot;)
+}
+
+Situação 14
+
+let categoria = prompt(&quot;Escolha a categoria: básico, intermediário ou
+avançado&quot;)
+switch (categoria) {
+case &quot;básico&quot;:
+console.log(&quot; Básico:operações simples (adição, subtração,
+multiplicação)&quot;)
+break
+case &quot;intermediário&quot;:
+console.log(&quot; Intermediário: frações, porcentagem e equações simples&quot;)
+break
+case &quot;avançado&quot;:
+console.log(&quot; Avançado: álgebra, geometria e problemas complexos&quot;)
+break
+default:
+console.log(&quot;Categoria não encontrada. Escolha básico, intermediário ou
+avançado.&quot;);
+}
